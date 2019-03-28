@@ -1,0 +1,77 @@
+html,
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0C2340;
+    margin: 0px;
+}
+
+#title {
+    text-align: center;
+    text-decoration: underline;
+    color: #BD3039;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: auto;
+    border: 5px solid #0C2340;
+    border-radius: 20px 30px;
+
+}
+
+#img-caption {
+    font-style: italic;
+    font-size: 14px;
+    color: white;
+}
+
+
+h3 {
+    color: #BD3039;
+}
+
+p {
+    color: white;
+}
+
+a {
+    color: #BD3039;
+    font-weight: bold;
+}
+
+#tribute-info {
+    position: relative;
+    text-align: center;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* FLEX BOX */
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+}
+
+.flex-container>div {
+    width: 200px;
+    margin: 5px;
+}
+
+#img-height {
+    height: 200px;
+    width: 200px;
+}
+
+.photoHeight {
+    height: 200px;
+    width: 200%;
+}
